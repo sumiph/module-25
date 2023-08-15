@@ -1,0 +1,74 @@
+.text-welcome{
+    font-size:60px;
+    padding-top: 50px;
+    text-align: center;
+}
+span{
+    font-weight: 100px;
+    color:#17bd33
+}
+.main-loging-from{
+    background-color:rgb(153, 238, 174);
+    width: 70%;
+    height: 50vh;
+    margin: auto;
+}
+.login h3{
+    font-size: 40px;
+    color: rgb(7, 7, 7);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+   font-weight: bold;
+   margin-left: 12%;
+   padding: 3%;
+}
+.emai{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    width:650px;
+    margin-left:15%;
+}
+.password{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    width:650px;
+    margin-left:15%;
+}
+.btn{
+    width: 120px;
+    padding: 10px;
+    margin-left: 15%;
+    border-radius: 10px;
+    border: none;
+    background-color:hsl(103, 97%, 30%) ;
+    color: white;
+    font-weight: bolder;
+    font-size:20px;
+}
+@media screen and (max-width:600px) {
+    .text-welcome{
+        font-size:40px;
+        padding-top: 5px;
+        text-align: center;
+    }
+    .main-loging-from{
+        width:100%;
+        height: 40vh;
+        padding: 0;
+    }
+    .emai,
+    .password{
+        padding: 15px;
+        width:30vh;
+        margin-left:10%;
+    }
+    .login h3{
+       margin-left:10%;
+       padding-top: 100px;
+    }
+       .btn{
+        margin-left: 10%;
+    }
+}
