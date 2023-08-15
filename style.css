@@ -5,10 +5,10 @@
 }
 span{
     font-weight: 100px;
-    color:#17bd33
+    color:#c003f0
 }
 .main-loging-from{
-    background-color:rgb(153, 238, 174);
+    background-color:rgb(248, 151, 227);
     width: 70%;
     height: 50vh;
     margin: auto;
@@ -42,8 +42,8 @@ span{
     margin-left: 15%;
     border-radius: 10px;
     border: none;
-    background-color:hsl(103, 97%, 30%) ;
-    color: white;
+    background-color:hsl(318, 97%, 23%) ;
+    color: rgb(243, 235, 235);
     font-weight: bolder;
     font-size:20px;
 }
